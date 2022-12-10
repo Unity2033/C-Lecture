@@ -1,139 +1,160 @@
 ﻿using System;
+using System.Reflection.Metadata.Ecma335;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Program
 {
+    class Monster
+    {
+        // 클래스란?
+        // 사용자 정의 데이터 유형으로 속성과 함수가 포함되어 있으며,
+        // 클래스를 통해 객체를 생성하여 접근하고 사용할 수 있는 집합체입니다.
+
+        // 접근 지정자
+        /*
+        // 클래스 내에서 접근을 제한하는 지정자입니다.
+
+        // public : 클래스 외부와 클래스 내부에서 접근
+        //          할 수 있는 지정자입니다
+
+        // private : 클래스 내부에서만 접근할 수 있는
+        //           지정자입니다.
+
+        // protected : 클래스 내부와 자기가 상속하고 있는
+        //             클래스까지만 접근할 수 있는 지정자입니다.
+        */
+
+        // 기본 접근 지정자 (private)
+        public int health;
+        public int attack;
+        public string name;
+
+        public void Skill()
+        {
+            Console.WriteLine("방망이 던지기");
+        }
+    }
+
     internal class Program
     {
-        // 전역 변수
-        // 함수의 외부에서 선언된 변수로, 어디에서든지 접근이 가능하며,
-        // 프로그램이 종료되어야만 메모리에서 사라지는 특징을 가지고 있는 변수입니다.
-        int variable = 10;
 
-        // 정적 변수
-        // 지역 변수와 전역 변수의 특성을 동시에 가지는 변수이며, 프로그램이
-        // 종료되어야만 메모리에서 사라지는 특징을 가지고 있는 변수입니다.
-        static int signal = 0;
+        // [자료형] [함수의 이름](매개변수)
+        // {
+        //
+        //
+        // }
+
+        // void = 자료형이 없는 형태
+
+        static void Function()
+        {
+            Console.WriteLine("안녕하세요.");
+            Console.WriteLine("안녕하세요.");
+            Console.WriteLine("안녕하세요.");
+            Console.WriteLine("안녕하세요.");
+            Console.WriteLine("안녕하세요.");
+        }
+
+        static int Calculator()
+        {
+            // 메소드는 하나의 값만 반환할 수 있습니다.
+            return 50;
+
+            int value = 10 + 20;
+
+            // 메소드의 자료형과 반환하는 값의 형태가
+            // 일치하지 않으면 원하는 값을 없을 수 없으며,
+            // 같은 이름의 메소드를 중복으로 선언할 수 없습니다.
+            return value;
+        }
+
+        static void Attack(int x)
+        {
+            // 매개변수 
+            // 함수의 정의에서 전달받은 인수를 함수 내부로 전달하기 위해
+            // 사용하는 변수입니다.
+
+            x = 300;
+        }
 
         static void Main(string [] args)
         {
-            #region 값 형식
+            #region 객체 인스턴스
             /*
-            // 변수가 값을 담는 데이터 형식입니다.
+            Monster monster = new Monster();
+            monster.health = 100;
+            monster.attack = 20;
+            monster.name = "Goblin";
+            monster.Skill();
 
-            // 변수의 명명 규칙
-            // 1. 같은 이름의 변수를 사용할 수 없습니다.
-            // 2. 변수의 첫번째 단어를 숫자로 시작할 수 없습니다.
-            // 3. 변수의 이름에 공백이 존재할 수 없습니다.
-            // 4. 변수의 이름에 특수 기호를 사용하려면 _만 가능합니다.
-            // 5. 변수의 이름으로 예약어를 사용할 수 없습니다.
-            
-            // 지역 변수
-            // 지정된 지역에서만 사용할 수 있는 변수입니다.
-            // 변수가 선언된 블록 내에서만 유효하며, 블록이 종료되면
-            // 메모리에서 사라지는 특징을 가지고 있습니다.
-
-            int value = 20;
-            float count_Down = 10.5f;
-
-            // char, short, int, long, float, double
-            {
-                int value3 = 10;
-            }
-
-            value = 10;
-
-            Console.WriteLine("value의 값 : " + value);
-            Console.WriteLine("count_Down의 값 : " + count_Down);
-            Console.WriteLine("signal의 값 : " + signal);
-
-            // 스택 영역
-            // 함수의 호출과 관계되는 지역 변수와 매개변수가 
-            // 저장되는 영역입니다.
+            Console.WriteLine("monster의 체력 : " + monster.health);
+            Console.WriteLine("monster의 공격력 : " + monster.attack);
+            Console.WriteLine("monster의 이름 : " + monster.name);
             */
             #endregion
 
-            #region 참조형식
-            // 변수가 값 대신 값이 있는 곳의 위치를 참조하여 저장하는
-            // 데이터 형식입니다.
-
-            // 배열
+            #region 박싱과 언박싱
             /*
-            // 같은 자료형의 변수들로 이루어진 유한 집합입니다.
-            //                         [0] [1] [2] [3] [4]
-            int [ ] space = new int[ ] { 10, 20, 30, 4, 5 };
+            // object는 어떤 형식의 데이터라도 object에
+            // 저장할 수 있습니다.
 
-            // 배열의 크기를 생략하게 되면 컴파일러가 알아서 배열의 인덱스를
-            // 보고 크기를 자동으로 설정합니다.
+            int value1 = 10;
+            float value2 = 10.75f;
+            bool value3 = true;
+            char value4 = 'A';
 
-            Console.WriteLine("space[0]의 값 : " + space[0]);
-            Console.WriteLine("space[1]의 값 : " + space[1]);
-            Console.WriteLine("space[2]의 값 : " + space[2]);
-            Console.WriteLine("space[3]의 값 : " + space[3]);
-            Console.WriteLine("space[4]의 값 : " + space[4]);
+            // 박싱(Boxing) 
+            // 값 형식을 object 형식으로 변환하는 과정입니다.
+          
+            // 암묵적 형 변환
+            object obj1 = value1;
+            object obj2 = value2;
+            object obj3 = value3;
+            object obj4 = value4;
+           
+            // 언박싱(UnBoxing)
+            // object 형식 개체에 Boxing 상태의 값 형식
+            // 데이터를 추출하는 과정입니다.
 
-            // 배열의 크기는 프로그램이 실행되는 동안 변경할 수 없습니다.
+            // 명시적 형 변환
+            int data1 = (int)obj1;
+            float data2 = (float)obj2;
+            bool data3 = (bool)obj3;
+            char data4 = (char)obj4;
 
-            // class, interface, array, enum, object, string
-            string name = "kimgeumsoo"; // 10개 문자
-            name = "kimsanghoon"; // 11개 문자
-            Console.WriteLine("name 변수의 값 : " + name);
+            Console.WriteLine("data1의 값 : " + data1);
+            Console.WriteLine("data2의 값 : " + data2);
+            Console.WriteLine("data3의 값 : " + data3);
+            Console.WriteLine("data4의 값 : " + data4);
 
-            // 힙 영역
-            // 사용자가 직접 메모리 공간을 저장하고 해제하는 영역입니다.
+            object [] array = new object[5];
+            array[0] = 10;
+            array[1] = "name";
+
+            // 저장되는 공간이 다르고 불필요한 형 변환이
+            // 이루어지기 때문에 오버헤드 현상이 발생합니다.
             */
             #endregion
 
-            // 조건문
-            // 어떤 조건이 주어질 때 해당 조건에 따라 동작을 수행하도록 실행
-            // 하는 명령문입니다.
+            // 메소드
+            // 하나의 특별한 목적의 작업을 수행하기 위해 독립적으로
+            // 설계된 코드의 집합입니다.
+            Function();
+            Function();
+            Function();
 
-            // 관계 연산자 
-            /*
-            // 두 개의 피연산자의 값을 비교하여 그 결과를 true(1) 또는 false(0)
-            // 이라는 값으로 나타내는 연산자입니다.
+            float value1 = 10.5f;
 
-            // > -> x > y (x가 y보다 크다면) 
-            // < -> x < y (x가 y보다 작다면)
-            // >= -> x >= y (x가 y보다 크거나 같다면)
-            // <= -> x <= y (x가 y보다 작거나 같다면)
-            // == -> x == y (x와 y가 같다면)
-            // != -> x != y (x가 y와 같지 않다면)
+            // 인수
+            // 메소드가 호출될 때 매개변수에 실제로 전달되는 값입니다.
+            Attack(value1);
 
-            bool check1 = 10 > 5;
-            bool check2 = 10 < 5;
-            bool check3 = 10 >= 5;
-            bool check4 = 10 <= 5;
-            bool check5 = 10 == 5;
-            bool check6 = 10 != 5;
+            // 인수는 값을 전달하는 인수와 값을 전달받는 매개변수의 자료형이 서로
+            // 일치해야 합니다.
 
-            Console.WriteLine("check1의 값 : " + check1);
-            Console.WriteLine("check2의 값 : " + check2);
-            Console.WriteLine("check3의 값 : " + check3);
-            Console.WriteLine("check4의 값 : " + check4);
-            Console.WriteLine("check5의 값 : " + check5);
-            Console.WriteLine("check6의 값 : " + check6);
-            */
+            Console.WriteLine("value1의 값 : " + value1);
 
-            // if 문
-            // 어떤 특정한 조건을 비교하여 조건이 맞다면 실행하는 명령문입니다. 
-            
-            if(10 == 10)
-            {
-                Console.WriteLine("A");
-            }
-            else if(10 == 10)
-            {
-                Console.WriteLine("B");
-            }
-
-            // else if문 
-            // if문의 조건이 틀릴 때 else if문의 조건이 맞다면 실행되는 명령문입니다.
-
-
-
-            // 반복문이란?
-            // 프로그램 내에서 특정한 작업을 반복적으로 수행하는 명령문입니다.
+            Console.WriteLine("Calculator 반환하는 값 : " + Calculator());
 
         }
     }
