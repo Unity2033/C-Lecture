@@ -1,161 +1,139 @@
 ﻿using System;
-using System.Reflection.Metadata.Ecma335;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Program
 {
-    class Monster
-    {
-        // 클래스란?
-        // 사용자 정의 데이터 유형으로 속성과 함수가 포함되어 있으며,
-        // 클래스를 통해 객체를 생성하여 접근하고 사용할 수 있는 집합체입니다.
-
-        // 접근 지정자
-        /*
-        // 클래스 내에서 접근을 제한하는 지정자입니다.
-
-        // public : 클래스 외부와 클래스 내부에서 접근
-        //          할 수 있는 지정자입니다
-
-        // private : 클래스 내부에서만 접근할 수 있는
-        //           지정자입니다.
-
-        // protected : 클래스 내부와 자기가 상속하고 있는
-        //             클래스까지만 접근할 수 있는 지정자입니다.
-        */
-
-        // 기본 접근 지정자 (private)
-        public int health;
-        public int attack;
-        public string name;
-
-        public void Skill()
+    class Unit
+    { 
+        // call by pass 
+        // 인수로 전달되는 변수가 가지고 있는 값을
+        // 메소드 내의 매개 변수에 복사되는 방식입니다.
+        public void Function(int x)
         {
-            Console.WriteLine("방망이 던지기");
+            x = 100;
+        }        
+
+        // call by reference (ref)
+        // 메소드의 매개변수에 인수로 전달된 변수의 원래
+        // 주솟값을 저장하는 방식입니다.
+        public void Calculator(ref int x)
+        {
+            x = 1000;
         }
+
+        // call by reference (out)
+        public void Information(out int x)
+        {
+            // 출력용 매개변수는 메소드 내부에서
+            // 값을 초기화하지 않으면 사용할 수 없습니다.
+            x = 10000;
+        }
+
+        // call by reference (in) 
+        public void DataPacket(in int x)
+        {
+            int variable = x + x;
+            Console.WriteLine("x의 값 : " + x);
+        }
+
+        // 가변 길이 매개변수
+        public void ItemSetting(params int [] x)
+        {
+            for (int i = 0; i < x.Length; i++)
+            {
+                Console.WriteLine("x [" + i + "]의 값 : " + x[i]);
+            }
+        }
+
+        // 선택적 매개변수
+        // 메소드의 매개변수는 기본값을 가질 수 있도록 설정해주는
+        // 매개변수입니다.
+
+        public void Stat(int x, int y = 10)
+        {
+            // 선택적 매개변수에 값을 저장하려면 오른쪽에서 부터
+            // 기본값을 설정해주어야 합니다.
+            Console.WriteLine("x의 값 : " + x + " y의 값 : " + y);
+        }
+
     }
+
+    // 프로퍼티
+    class Champion
+    {
+        // 체력
+        private float health;
+        
+        // 클래스 내부에 있는 데이터를 숨기고, 외부에 사용할 수 있는
+        // 인터페이스만 제공해주는 기능입니다.
+    
+        public float Health
+        {
+            get { return Health; } // 출력해주는 기능
+            set 
+            { 
+                if(value > 100)
+                {
+                    return; 
+                }
+
+                health = value;  
+            } // 입력해주는 기능
+        }
+
+    }
+
+    // OOP 4대 특징
+    // 1. 추상화
+    // 2. 캡슐화
+    // 3. 상속
+    // 4. 다형성
 
     internal class Program
     {
-
-        // [자료형] [함수의 이름](매개변수)
-        // {
-        //
-        //
-        // }
-
-        // void = 자료형이 없는 형태
-
-        static void Function()
+        static void Main(string[] args)
         {
-            Console.WriteLine("안녕하세요.");
-            Console.WriteLine("안녕하세요.");
-            Console.WriteLine("안녕하세요.");
-            Console.WriteLine("안녕하세요.");
-            Console.WriteLine("안녕하세요.");
-        }
+            #region 매개변수 한정자
 
-        static int Calculator()
-        {
-            // 메소드는 하나의 값만 반환할 수 있습니다.
-            return 50;
+            Unit unit = new Unit();
 
-            int value = 10 + 20;
+            int value = 10;
 
-            // 메소드의 자료형과 반환하는 값의 형태가
-            // 일치하지 않으면 원하는 값을 없을 수 없으며,
-            // 같은 이름의 메소드를 중복으로 선언할 수 없습니다.
-            return value;
-        }
+            // 값에 의한 전달
+            // unit.Function(value);
+            // Console.WriteLine("value의 값 : " + value);
 
-        static void Attack(int x)
-        {
-            // 매개변수 
-            // 함수의 정의에서 전달받은 인수를 함수 내부로 전달하기 위해
-            // 사용하는 변수입니다.
+            // 참조에 의한 전달 (ref)
+            // unit.Calculator(ref value);
+            // Console.WriteLine("value의 값 : " + value);
 
-            x = 300;
-        }
+            // 참조에 의한 전달 (out)
+            // out 키워드는 지역 변수의 값을 초기화하지 않아도
+            // 사용할 수 있습니다.
+            // unit.Information(out value);
+            // Console.WriteLine("value의 값 : " + value);
 
-        static void Main(string [] args)
-        {
-            #region 객체 인스턴스
-            /*
-            Monster monster = new Monster();
-            monster.health = 100;
-            monster.attack = 20;
-            monster.name = "Goblin";
-            monster.Skill();
+            // 참조에 의한 전달 (in)
+            // in 키워드는 메소드 내부에서 값을 변경할 수 없습니다.
+            // unit.DataPacket(value);
+            // Console.WriteLine("value의 값 : " + value);
 
-            Console.WriteLine("monster의 체력 : " + monster.health);
-            Console.WriteLine("monster의 공격력 : " + monster.attack);
-            Console.WriteLine("monster의 이름 : " + monster.name);
-            */
+            // 가변 길이 매개변수
+            // 가변 길이 매개변수에 인수를 전달하지 않으면 
+            // 배열의 크기는 0으로 설정됩니다.
+            // unit.ItemSetting(5, 7, 9, 1);
+            // unit.ItemSetting(20, 15);
+            // unit.ItemSetting();
+
+            // 선택적 매개변수
+            // unit.Stat(1); // x : 1, y : 10
+            // unit.Stat(20, 95); // x : 20, y : 95
             #endregion
 
-            #region 박싱과 언박싱
-            /*
-            // object는 어떤 형식의 데이터라도 object에
-            // 저장할 수 있습니다.
+            // 프로퍼티
+            Champion alistar = new Champion();
 
-            int value1 = 10;
-            float value2 = 10.75f;
-            bool value3 = true;
-            char value4 = 'A';
-
-            // 박싱(Boxing) 
-            // 값 형식을 object 형식으로 변환하는 과정입니다.
-          
-            // 암묵적 형 변환
-            object obj1 = value1;
-            object obj2 = value2;
-            object obj3 = value3;
-            object obj4 = value4;
-           
-            // 언박싱(UnBoxing)
-            // object 형식 개체에 Boxing 상태의 값 형식
-            // 데이터를 추출하는 과정입니다.
-
-            // 명시적 형 변환
-            int data1 = (int)obj1;
-            float data2 = (float)obj2;
-            bool data3 = (bool)obj3;
-            char data4 = (char)obj4;
-
-            Console.WriteLine("data1의 값 : " + data1);
-            Console.WriteLine("data2의 값 : " + data2);
-            Console.WriteLine("data3의 값 : " + data3);
-            Console.WriteLine("data4의 값 : " + data4);
-
-            object [] array = new object[5];
-            array[0] = 10;
-            array[1] = "name";
-
-            // 저장되는 공간이 다르고 불필요한 형 변환이
-            // 이루어지기 때문에 오버헤드 현상이 발생합니다.
-            */
-            #endregion
-
-            // 메소드
-            // 하나의 특별한 목적의 작업을 수행하기 위해 독립적으로
-            // 설계된 코드의 집합입니다.
-            Function();
-            Function();
-            Function();
-
-            float value1 = 10.5f;
-
-            // 인수
-            // 메소드가 호출될 때 매개변수에 실제로 전달되는 값입니다.
-            Attack(value1);
-
-            // 인수는 값을 전달하는 인수와 값을 전달받는 매개변수의 자료형이 서로
-            // 일치해야 합니다.
-
-            Console.WriteLine("value1의 값 : " + value1);
-
-            Console.WriteLine("Calculator 반환하는 값 : " + Calculator());
-
+            alistar.Health = 99; // set
+            Console.WriteLine("alistar의 체력 : " + alistar.Health); // get
         }
     }
 }
