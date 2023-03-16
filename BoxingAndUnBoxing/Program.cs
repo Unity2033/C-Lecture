@@ -70,7 +70,13 @@ namespace Boxing
             // 입력
             string input = Console.ReadLine();
 
-            Console.WriteLine(input);
+            int index = int.Parse(Console.ReadLine());
+
+            // [0][1][2][3][4]
+            //  C  o  u  n  t 
+            //           4
+
+            Console.WriteLine(input[index-1]);
         }
     }
 }
