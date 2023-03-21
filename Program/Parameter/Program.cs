@@ -74,9 +74,24 @@ namespace Parameter
             #endregion
 
             // 가변 길이 매개 변수
-            Information(10, 20);
 
-            Information(10, 20, 35, 45);
+            // Information(10, 20);
+            // Information(10, 20, 35, 45);
+
+            int count = int.Parse(Console.ReadLine());
+
+            for(int i = count; i > 0; i -= 4)
+            {
+                if(count >= 4)
+                {
+                    Console.WriteLine("long ");
+                }
+            }
+
+            if (count >= 4)
+            {
+                Console.WriteLine("int");
+            }
         }
     }
 }

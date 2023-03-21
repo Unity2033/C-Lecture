@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class", "Class\Class.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor", "Constructor\Constructor.csproj", "{02C0EDA6-E919-430E-8D57-4C117A704F21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parameter", "Parameter\Parameter.csproj", "{10888F35-BAEE-4FEA-8EB3-CD4F320EE943}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parameter", "Parameter\Parameter.csproj", "{10888F35-BAEE-4FEA-8EB3-CD4F320EE943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Override", "Override\Override.csproj", "{ECCF63DD-B581-41C7-980B-0D8AAD4EE0D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{10888F35-BAEE-4FEA-8EB3-CD4F320EE943}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10888F35-BAEE-4FEA-8EB3-CD4F320EE943}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10888F35-BAEE-4FEA-8EB3-CD4F320EE943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECCF63DD-B581-41C7-980B-0D8AAD4EE0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCF63DD-B581-41C7-980B-0D8AAD4EE0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCF63DD-B581-41C7-980B-0D8AAD4EE0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCF63DD-B581-41C7-980B-0D8AAD4EE0D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
