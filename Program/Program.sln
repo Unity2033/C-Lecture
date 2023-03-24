@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Override", "Override\Overri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Casting", "Casting\Casting.csproj", "{938C95DC-B08F-4617-A9CF-DE549011C1B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{41F50858-4BAA-44B0-9542-0246F7FE63B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Interface.csproj", "{41F50858-4BAA-44B0-9542-0246F7FE63B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "Abstract\Abstract.csproj", "{75F8731D-5C3A-4390-B245-407B41AB384C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{41F50858-4BAA-44B0-9542-0246F7FE63B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41F50858-4BAA-44B0-9542-0246F7FE63B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41F50858-4BAA-44B0-9542-0246F7FE63B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F8731D-5C3A-4390-B245-407B41AB384C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F8731D-5C3A-4390-B245-407B41AB384C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F8731D-5C3A-4390-B245-407B41AB384C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F8731D-5C3A-4390-B245-407B41AB384C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
