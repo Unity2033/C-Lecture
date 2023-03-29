@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\bin\Debug\net6.0\Indexer.exe
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\bin\Debug\net6.0\Indexer.deps.json
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\bin\Debug\net6.0\Indexer.runtimeconfig.json
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\bin\Debug\net6.0\Indexer.dll
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\bin\Debug\net6.0\Indexer.pdb
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\obj\Debug\net6.0\Indexer.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\obj\Debug\net6.0\Indexer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\obj\Debug\net6.0\Indexer.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\obj\Debug\net6.0\Indexer.AssemblyInfo.cs
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\obj\Debug\net6.0\Indexer.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\obj\Debug\net6.0\Indexer.dll
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\obj\Debug\net6.0\refint\Indexer.dll
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\obj\Debug\net6.0\Indexer.pdb
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\obj\Debug\net6.0\Indexer.genruntimeconfig.cache
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Indexer\obj\Debug\net6.0\ref\Indexer.dll
