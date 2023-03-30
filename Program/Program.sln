@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate", "Delegate\Delega
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anonymous", "Anonymous\Anonymous.csproj", "{706704FE-8AE3-4198-8BAF-4F72A43C65A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexer", "Indexer\Indexer.csproj", "{EBA111B4-C7CA-46D1-B7C1-3A37354F4CC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collection", "Indexer\Collection.csproj", "{EBA111B4-C7CA-46D1-B7C1-3A37354F4CC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable", "HashTable\HashTable.csproj", "{E94CC801-92E0-4AE5-A615-DEDB570C81F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{EBA111B4-C7CA-46D1-B7C1-3A37354F4CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA111B4-C7CA-46D1-B7C1-3A37354F4CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA111B4-C7CA-46D1-B7C1-3A37354F4CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E94CC801-92E0-4AE5-A615-DEDB570C81F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94CC801-92E0-4AE5-A615-DEDB570C81F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94CC801-92E0-4AE5-A615-DEDB570C81F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94CC801-92E0-4AE5-A615-DEDB570C81F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

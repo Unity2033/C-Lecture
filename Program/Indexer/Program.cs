@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Security.Cryptography.X509Certificates;
+﻿using System;
 
 namespace Indexer
 {
@@ -51,7 +50,7 @@ namespace Indexer
             //Console.WriteLine(stack.Pop()); // empty
             #endregion
 
-            # region 콜렉션 일반화 (List)
+            #region 콜렉션 일반화 (List)
             List<float> list = new List<float>();
 
             // Add() : 데이터를 추가하는 하는 함수
@@ -60,7 +59,7 @@ namespace Indexer
             list.Add(30.35f);
             list.Add(40.75f);
 
-            for(int i = 0; i < list.Count; i++)
+            for (int i = 0; i < list.Count; i++)
             {
                 Console.WriteLine(list[i]);
             }
