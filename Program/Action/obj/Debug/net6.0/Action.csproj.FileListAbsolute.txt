@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\bin\Debug\net6.0\Action.exe
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\bin\Debug\net6.0\Action.deps.json
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\bin\Debug\net6.0\Action.runtimeconfig.json
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\bin\Debug\net6.0\Action.dll
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\bin\Debug\net6.0\Action.pdb
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\obj\Debug\net6.0\Action.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\obj\Debug\net6.0\Action.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\obj\Debug\net6.0\Action.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\obj\Debug\net6.0\Action.AssemblyInfo.cs
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\obj\Debug\net6.0\Action.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\obj\Debug\net6.0\Action.dll
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\obj\Debug\net6.0\refint\Action.dll
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\obj\Debug\net6.0\Action.pdb
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\obj\Debug\net6.0\Action.genruntimeconfig.cache
+C:\Users\Administrator\Documents\새 폴더\C-Sharp-Language\Program\Action\obj\Debug\net6.0\ref\Action.dll
