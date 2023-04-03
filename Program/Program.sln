@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collection", "Indexer\Colle
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTable", "HashTable\HashTable.csproj", "{E94CC801-92E0-4AE5-A615-DEDB570C81F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Action", "Action\Action.csproj", "{EA6B0380-D3D2-49E2-B958-12BE44C19F3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Action", "Action\Action.csproj", "{EA6B0380-D3D2-49E2-B958-12BE44C19F3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partial", "Partial\Partial.csproj", "{5CF905B6-FD32-4FE6-9F07-54ECD0833E58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{EA6B0380-D3D2-49E2-B958-12BE44C19F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA6B0380-D3D2-49E2-B958-12BE44C19F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA6B0380-D3D2-49E2-B958-12BE44C19F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF905B6-FD32-4FE6-9F07-54ECD0833E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF905B6-FD32-4FE6-9F07-54ECD0833E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF905B6-FD32-4FE6-9F07-54ECD0833E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF905B6-FD32-4FE6-9F07-54ECD0833E58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
