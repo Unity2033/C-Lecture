@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game", "Game.csproj", "{1B69CEDF-0DBD-456B-BC71-4AB0FF7F3EFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editor", "..\Editor\Editor.csproj", "{0A363CBF-2BC4-4F00-B90E-CB25F56A0847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Editor", "..\Editor\Editor.csproj", "{0A363CBF-2BC4-4F00-B90E-CB25F56A0847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iteration", "..\Iteration\Iteration.csproj", "{D383E74A-547B-4C19-8E62-F47331B8E2B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0A363CBF-2BC4-4F00-B90E-CB25F56A0847}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A363CBF-2BC4-4F00-B90E-CB25F56A0847}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A363CBF-2BC4-4F00-B90E-CB25F56A0847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D383E74A-547B-4C19-8E62-F47331B8E2B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D383E74A-547B-4C19-8E62-F47331B8E2B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D383E74A-547B-4C19-8E62-F47331B8E2B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D383E74A-547B-4C19-8E62-F47331B8E2B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
