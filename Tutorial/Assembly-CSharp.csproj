@@ -57,9 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Unity Interface\Quirky Series Ultimate\_Scripts\QuirkySeriesDemo.cs" />
+    <Compile Include="Assets\Animator\Scripts\AnimatorManager.cs" />
     <Compile Include="Assets\Unity Interface\Quirky Series Ultimate\_Scripts\RotateOnScroll.cs" />
     <Compile Include="Assets\Instance\Scripts\Player.cs" />
-    <Compile Include="Assets\Animator\Scripts\AnimatorManager.cs" />
+    <Compile Include="Assets\Instantiate\Scripts\Slime.cs" />
+    <Compile Include="Assets\Instantiate\Scripts\Turtle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Unity Interface\Quirky Series Ultimate\_Shader\SoftSurface.shader" />
