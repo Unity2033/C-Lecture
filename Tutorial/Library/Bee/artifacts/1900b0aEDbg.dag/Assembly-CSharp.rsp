@@ -361,6 +361,8 @@
 "Assets/Instance/Scripts/Player.cs"
 "Assets/Instantiate/Scripts/Slime.cs"
 "Assets/Instantiate/Scripts/Turtle.cs"
+"Assets/Sound/Script/AudioManager.cs"
+"Assets/Sound/Script/Drone.cs"
 "Assets/Unity Interface/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs"
 "Assets/Unity Interface/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs"
 -langversion:9.0

@@ -56,14 +56,16 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Animation Clip\Script\Parallax.cs" />
     <Compile Include="Assets\Unity Interface\Quirky Series Ultimate\_Scripts\QuirkySeriesDemo.cs" />
+    <Compile Include="Assets\Animation Clip\Script\AnimationManager.cs" />
     <Compile Include="Assets\Instantiate\Scripts\Slime.cs" />
     <Compile Include="Assets\Instantiate\Scripts\Turtle.cs" />
     <Compile Include="Assets\Animator\Scripts\AnimatorManager.cs" />
     <Compile Include="Assets\Unity Interface\Quirky Series Ultimate\_Scripts\RotateOnScroll.cs" />
     <Compile Include="Assets\Instance\Scripts\Player.cs" />
-    <Compile Include="Assets\Animation Clip\Script\Parallax.cs" />
-    <Compile Include="Assets\Animation Clip\Script\AnimationManager.cs" />
+    <Compile Include="Assets\Sound\Script\Drone.cs" />
+    <Compile Include="Assets\Sound\Script\AudioManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
