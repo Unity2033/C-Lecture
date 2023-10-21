@@ -361,6 +361,7 @@
 "Assets/Instance/Scripts/Player.cs"
 "Assets/Instantiate/Scripts/Slime.cs"
 "Assets/Instantiate/Scripts/Turtle.cs"
+"Assets/NavMesh Agent/Script/Controller.cs"
 "Assets/Sound/Script/AudioManager.cs"
 "Assets/Sound/Script/Drone.cs"
 "Assets/Unity Interface/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs"
