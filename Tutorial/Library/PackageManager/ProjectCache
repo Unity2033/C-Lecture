@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638334615382523510
+      ticks: 638340664239246490
     m_Hash: 1650708056
   m_LockFileStatus:
     m_FilePath: C:/Users/Administrator/Desktop/Weekend-Unity/Tutorial/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638334615382523510
+      ticks: 638340664239246490
     m_Hash: 618607993
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -3268,6 +3268,7 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.10.1
     - 1.11.0
+    - 1.12.0
     compatible:
     - 1.6.0
     - 1.7.0
@@ -3277,6 +3278,7 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.10.1
     - 1.11.0
+    - 1.12.0
     verified: 1.6.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
