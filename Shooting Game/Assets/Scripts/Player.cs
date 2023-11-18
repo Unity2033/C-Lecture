@@ -9,6 +9,9 @@ public class Player : MonoBehaviour
     [SerializeField] Vector2 direction;
     [SerializeField] float speed = 5.0f;
 
+    [SerializeField] Transform createPosition;
+    [SerializeField] GameObject missilePrefab;
+
     void Start()
     {
         rigidBody2D = GetComponent<Rigidbody2D>();
@@ -17,6 +20,16 @@ public class Player : MonoBehaviour
     void Update()
     {
         direction.x = Input.GetAxisRaw("Horizontal");
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            CreateMissile();
+        }
+    }
+
+    public void CreateMissile()
+    {     
+        Instantiate(missilePrefab, createPosition);
     }
 
     private void FixedUpdate()
