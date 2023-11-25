@@ -22,4 +22,9 @@ public class Missile : MonoBehaviour
     {
         collision.GetComponent<Enemy>().OnHit(attack);
     }
+
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }
 }

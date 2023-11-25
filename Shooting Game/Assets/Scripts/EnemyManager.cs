@@ -11,7 +11,7 @@ public class EnemyManager : MonoBehaviour
 
     [SerializeField] List<GameObject> enemyList;
 
-    void Start()
+    void Awake()
     {
         enemyList.Capacity = 15;
 

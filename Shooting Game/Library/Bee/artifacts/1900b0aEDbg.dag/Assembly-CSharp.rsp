@@ -377,12 +377,14 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/EnemyManager.cs"
 "Assets/Scripts/FlashMaterial.cs"
 "Assets/Scripts/Missile.cs"
 "Assets/Scripts/Parallax.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/Sound.cs"
 -langversion:9.0
 
 /deterministic
