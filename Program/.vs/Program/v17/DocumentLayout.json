@@ -1,10 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CAEE2B0-0A89-4983-AA2C-2589D516065F}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8CAEE2B0-0A89-4983-AA2C-2589D516065F}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8CAEE2B0-0A89-4983-AA2C-2589D516065F}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEC18732-18B6-44DE-B8F7-0EB94B03BD76}|..\\Class1th (GetAsyncKeyState)\\Class1th (GetAsyncKeyState).vcxproj|C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Class1th (GetAsyncKeyState)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +17,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Class1th (GetAsyncKeyState)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class1th (GetAsyncKeyState)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Class1th (GetAsyncKeyState)\\Source.c",
+              "RelativeToolTip": "..\\Class1th (GetAsyncKeyState)\\Source.c",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAACYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-11T12:14:53.01Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Program\\Source.c",
               "RelativeDocumentMoniker": "Source.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-10T11:06:24.107Z",
               "EditorCaption": ""
