@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{8CAEE2B0-0A89-4983-AA2C-2589D516065F}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E1C4388D-FD0F-463A-B34F-B5FA02865846}|..\\Class4th (File Input and Output)\\Class4th (File Input and Output).vcxproj|C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Class4th (File Input and Output)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E2D89C6A-8138-48EA-8A2A-BBDB6AD1A076}|..\\Class3th (Maze Game)\\Class3th (Maze Game).vcxproj|C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Class3th (Maze Game)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -23,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Class4th (File Input and Output)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class4th (File Input and Output)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Class4th (File Input and Output)\\Source.c",
+              "RelativeToolTip": "..\\Class4th (File Input and Output)\\Source.c",
+              "ViewState": "AQIAAAoAAAAAAAAAAADwvzkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-20T12:41:05.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Class3th (Maze Game)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class3th (Maze Game)\\Source.c",
@@ -35,12 +51,11 @@
               "RelativeToolTip": "..\\Class3th (Maze Game)\\Source.c",
               "ViewState": "AQIAACgAAAAAAAAAAAAUwG4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-19T12:42:28.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T12:42:28.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Class2th (Double Buffering)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class2th (Double Buffering)\\Source.c",
@@ -48,12 +63,11 @@
               "RelativeToolTip": "..\\Class2th (Double Buffering)\\Source.c",
               "ViewState": "AQIAAGAAAAAAAAAAAAAAAGIAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-13T11:04:26.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T11:04:26.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Class1th (GetAsyncKeyState)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class1th (GetAsyncKeyState)\\Source.c",
@@ -71,7 +85,7 @@
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-10T11:06:24.107Z",
               "EditorCaption": ""
