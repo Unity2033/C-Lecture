@@ -3,10 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Game\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2A26923-A737-4904-974A-D84BC402BB91}|..\\Class2th (Time)\\Class2th (Time).vcxproj|C:\\Users\\Administrator\\Desktop\\Game\\Class2th (Time)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05CA2817-214C-4399-BEC0-18F646352E0D}|..\\Class5th (Double Buffer)\\Class5th (Double Buffer).vcxproj|C:\\Users\\Administrator\\Desktop\\Game\\Class5th (Double Buffer)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2DDC0637-A559-4F77-8313-F1B603F76835}|..\\Class6th (Color)\\Class6th (Color).vcxproj|C:\\Users\\Administrator\\Desktop\\Game\\Class6th (Color)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CAEE2B0-0A89-4983-AA2C-2589D516065F}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Game\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -14,6 +11,12 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEC18732-18B6-44DE-B8F7-0EB94B03BD76}|..\\Class1th (GetAsyncKeyState)\\Class1th (GetAsyncKeyState).vcxproj|C:\\Users\\Administrator\\Desktop\\Game\\Class1th (GetAsyncKeyState)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A26923-A737-4904-974A-D84BC402BB91}|..\\Class2th (Time)\\Class2th (Time).vcxproj|C:\\Users\\Administrator\\Desktop\\Game\\Class2th (Time)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05CA2817-214C-4399-BEC0-18F646352E0D}|..\\Class5th (Double Buffer)\\Class5th (Double Buffer).vcxproj|C:\\Users\\Administrator\\Desktop\\Game\\Class5th (Double Buffer)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEA9E6A0-661E-41BE-82CA-8A07C217B21D}|..\\Class3th (Mouse)\\Class3th (Mouse).vcxproj|C:\\Users\\Administrator\\Desktop\\Game\\Class3th (Mouse)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -47,18 +50,31 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game\\Class6th (Color)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class6th (Color)\\Source.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game\\Class6th (Color)\\Source.c",
+              "RelativeToolTip": "..\\Class6th (Color)\\Source.c",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-09T06:12:03.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game\\Class2th (Time)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class2th (Time)\\Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game\\Class2th (Time)\\Source.c",
               "RelativeToolTip": "..\\Class2th (Time)\\Source.c",
-              "ViewState": "AQIAACcAAAAAAAAAAAAQwD4AAAACAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADwAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-12-06T06:10:43.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game\\Class5th (Double Buffer)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class5th (Double Buffer)\\Source.c",
@@ -66,25 +82,24 @@
               "RelativeToolTip": "..\\Class5th (Double Buffer)\\Source.c",
               "ViewState": "AQIAACQAAAAAAAAAAAAAACEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-06T05:39:06.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T05:39:06.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game\\Class1th (GetAsyncKeyState)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class1th (GetAsyncKeyState)\\Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game\\Class1th (GetAsyncKeyState)\\Source.c",
               "RelativeToolTip": "..\\Class1th (GetAsyncKeyState)\\Source.c",
-              "ViewState": "AQIAADUAAAAAAAAAAADwv1gAAAABAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAADwv1gAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-12-06T05:28:10.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game\\Class3th (Mouse)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class3th (Mouse)\\Source.c",
@@ -92,12 +107,11 @@
               "RelativeToolTip": "..\\Class3th (Mouse)\\Source.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-06T05:26:05.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T05:26:05.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game\\Class4th (File Input and Output)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class4th (File Input and Output)\\Source.c",
@@ -105,12 +119,11 @@
               "RelativeToolTip": "..\\Class4th (File Input and Output)\\Source.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-06T05:19:20.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T05:19:20.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Class4th (File Input and Output)\\Source.c",
               "RelativeDocumentMoniker": "..\\..\\Shooting-Game\\Class4th (File Input and Output)\\Source.c",
@@ -121,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Class3th (Maze Game)\\Source.c",
               "RelativeDocumentMoniker": "..\\..\\Shooting-Game\\Class3th (Maze Game)\\Source.c",
@@ -133,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Class2th (Double Buffering)\\Source.c",
               "RelativeDocumentMoniker": "..\\..\\Shooting-Game\\Class2th (Double Buffering)\\Source.c",
@@ -145,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Shooting-Game\\Class1th (GetAsyncKeyState)\\Source.c",
               "RelativeDocumentMoniker": "..\\..\\Shooting-Game\\Class1th (GetAsyncKeyState)\\Source.c",
@@ -157,13 +170,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Game\\Program\\Source.c",
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Game\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AQIAADcAAAAAAAAAAAD4v0MAAAAKAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAD4v0MAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-10T11:06:24.107Z",
               "EditorCaption": ""
